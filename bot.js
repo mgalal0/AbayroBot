@@ -42,7 +42,7 @@ client.user.setGame(`=help |=invite |=support`,'https://www.twitch.tv/fofodiscor
 
 client.on('message', msg => {
   if (msg.content === '=ownerbot') {
-    msg.reply('**OwnerBot <@382889731316514826>**');
+    msg.reply('**OwnerBot <@513642775259119636>**');
   }
 });
 
