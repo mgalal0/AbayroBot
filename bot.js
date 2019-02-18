@@ -573,19 +573,6 @@ client.on('message', message => {
 
 
 
-client.on('message', message => {
-     if (message.content === "=ping") {
-      const embed = new Discord.RichEmbed()
-
-  .setColor("#FF0000")
-  .addField('``سرعة أتصال الــبوت`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
- 
-  message.channel.sendEmbed(embed);
-    }
-});
-
-
-
 var cats = [
 
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
